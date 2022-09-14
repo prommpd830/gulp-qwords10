@@ -9,12 +9,16 @@ const paths = {
 		src: './',
 		dest: './build/',
 	},
+	assets: {
+		src: './',
+		dest: './build/assets',
+	},
 }
 
 async function includeHTML() {
 	return gulp
 		.src([
-			'*.html',
+			'src/pages/*',
 			'!header.html', // ignore
 			'!footer.html', // ignore
 		])
@@ -42,7 +46,7 @@ async function reload() {
 
 // Copy assets after build
 async function copyAssets() {
-	gulp.src(['src/**/*']).pipe(gulp.dest(paths.scripts.dest))
+	gulp.src(['src/assets/**/*']).pipe(gulp.dest(paths.assets.dest))
 }
 
 async function buildAndReload() {
@@ -64,5 +68,5 @@ exports.default = async function () {
 	// Build and reload at the first time
 	buildAndReload()
 	// Watch task
-	watch(['*.html', 'src/assets/**/*', 'partials/**'], series(buildAndReload))
+	watch(['src/pages/*', 'src/assets/**/*', 'src/partials/**'], series(buildAndReload))
 }
