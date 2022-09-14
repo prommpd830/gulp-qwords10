@@ -1,0 +1,11 @@
+@import 'colors';
+
+.container {
+	display: flex;
+	background-color: #090909;
+	color: $primary-color;
+	min-height: 100vh;
+	h1 {
+		font-size: 5rem !important;
+	}
+}

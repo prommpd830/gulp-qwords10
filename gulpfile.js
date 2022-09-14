@@ -2,6 +2,8 @@ const gulp = require('gulp')
 const fileinclude = require('gulp-file-include')
 const server = require('browser-sync').create()
 const { watch, series } = require('gulp')
+const sass = require('gulp-sass') (require('sass'));
+sass.compiler = require('node-sass')
 const paths = {
 	scripts: {
 		src: './',
@@ -25,6 +27,14 @@ async function includeHTML() {
 		.pipe(gulp.dest(paths.scripts.dest))
 }
 
+// Sass compiler
+async function compileSass() {
+	gulp
+		.src('./src/assets/sass/**/*.scss')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('src/assets/css'))
+}
+
 // Reload Server
 async function reload() {
 	server.reload()
@@ -42,7 +52,6 @@ async function buildAndReload() {
 }
 
 exports.includeHTML = includeHTML
-
 exports.default = async function () {
 	// Init serve files from the build folder
 	server.init({
@@ -50,6 +59,8 @@ exports.default = async function () {
 			baseDir: paths.scripts.dest,
 		},
 	})
+	
+	watch('./src/assets/sass/**/*.scss', series(compileSass))
 	// Build and reload at the first time
 	buildAndReload()
 	// Watch task
