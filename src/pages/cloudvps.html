@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		@@include('../partials/header.html')
+		<title>Qwords v10 | Cloud VPS</title>
+	</head>
+	<body>
+		<!-- ! NAVBAR SECTION -->
+		@@include('../partials/navbar.html')
+		<!-- ! END OF NAVBAR SECTION -->
+		<!-- ! VPS BANNER -->
+		@@include('../partials/cloudvps/vps-banner.html', {
+			"h1Text": "Cloud Virtual Private Server KVM SSD",
+			"bannerSubText": {
+				"p1": "Cloud VPS Qwords kini hadir lebih revolusioner dengan teknologi KVM (Kernel-based Virtual Machine)",
+				"p2": "VPS Indonesia dengan Easy Install Control Panel & telah mendukung semua OS terbaru. Kinerja lebih cepat dengan menggunakan Enterprise Grade SSD Storage menjadikan nya sebagai VPS Terbaik",
+				"p3": " "
+			}
+		})
+		<!-- ! END OF VPS BANNER -->
+		<!-- ! TABLE PRODUCT -->
+		@@include('../partials/cloudvps/webhosting-table.html')
+		<!-- ! END OF TABLE PRODUCT -->
+		<!-- ! SERVER -->
+		@@include('../partials/wp/faq.html')
+		<!-- ! END OF SERVER -->
+		<!-- ! BENEFIT -->
+		@@include('../partials/cloudvps/benefit-hosting.html')
+		<!-- ! END OF BENEFIT -->
+		<!-- ! QNA -->
+		@@include('../partials/cloudvps/qna.html')
+		<!-- ! END OF QNA -->
+		<!-- ! MANAGE BOX -->
+		@@include('../partials/cloudvps/trial.html')
+		<!-- ! END OF MANAGE BOX -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false
+		})
+		<!-- ! END OF COMMITMENT -->
+		<!-- ! PAYMNET -->
+		@@include('../partials/homepage/payment.html')
+		<!-- ! END OF PAYMNET -->
+		@@include('../partials/footer.html')
+	</body>
+</html>
