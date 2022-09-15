@@ -27,7 +27,11 @@
 		@@include('../partials/hpb/migrasi.html')
 		<!-- ! END OF MIGRASI -->
 		<!-- ! COMMITMENT -->
-		@@include('../partials/hpb/commitment.html')
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false
+		})
 		<!-- ! END OF COMMITMENT -->
 		<!-- ! PAYMENT -->
 		@@include('../partials/hpb/payment.html')

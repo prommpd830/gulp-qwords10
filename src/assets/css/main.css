@@ -141,7 +141,7 @@ body {
     background-color: #ff896b; }
 
 #commitment {
-  padding-top: 100px; }
+  padding: 100px 0; }
   @media screen and (min-width: 992px) {
     #commitment {
       padding: 120px 7rem; } }
