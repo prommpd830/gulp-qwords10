@@ -2,19 +2,27 @@
 <html lang="en">
 	<head>
 		@@include('../partials/header.html')
-		<title>Qwords v10 | VHP</title>
+		<title>Qwords v10</title>
 	</head>
 	<body>
 		<!-- ! NAVBAR SECTION -->
 		@@include('../partials/navbar.html')
 		<!-- ! END OF NAVBAR SECTION -->
-		<!-- ! VHP BANNER -->
-		@@include('../partials/vhp/vhp-banner.html')
-		<!-- ! END OF VHP BANNER -->
-		@@include('../partials/vhp/webhosting-table.html')
-		<!-- ! BENEFIT HOSTING -->
-		@@include('../partials/vhp/vhp-benefit-hosting.html')
-		<!-- ! END OF BENEFIT HOSTING -->
+		<!-- ! MAIN BANNER -->
+		@@include('../partials/uh/uh-banner.html')
+		<!-- ! END OF MAIN BANNER -->
+		<!-- ! BROADBAND BANNER -->
+		@@include('../partials/uh/uh-broadband.html')
+		<!-- ! END OF BROADBAND BANNER -->
+		<!-- ! PRODUCT -->
+		@@include('../partials/uh/uh-product.html')
+		<!-- ! END OF PRODUCT -->
+		<!-- ! CARD PRODUCT LIST -->
+		@@include('../partials/uh/uh-featured-card.html')
+		<!-- ! END CARD PRODUCT LIST -->
+		<!-- ! SOLUTION -->
+		@@include('../partials/uh/uh-benefit.html')
+		<!-- ! END OF SOLUTION -->
 		<!-- ! QNA -->
 		@@include('../partials/vhp/vhp-qna.html')
 		<!-- ! END OF QNA -->
@@ -28,6 +36,9 @@
 			"isHomePage": false
 		})
 		<!-- ! END OF COMMITMENT -->
+		<!-- ! PAYMENT -->
+		@@include('../partials/homepage/payment.html')
+		<!-- ! END OF PAYMENT -->
 		@@include('../partials/footer.html')
 	</body>
 </html>
