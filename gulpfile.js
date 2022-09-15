@@ -2,7 +2,9 @@ const gulp = require('gulp')
 const fileinclude = require('gulp-file-include')
 const server = require('browser-sync').create()
 const { watch, series } = require('gulp')
-const sass = require('gulp-sass') (require('sass'));
+const sass = require('gulp-sass') (require('sass'))
+const formatHtml = require('gulp-format-html')
+
 sass.compiler = require('node-sass')
 const paths = {
 	scripts: {
@@ -28,6 +30,9 @@ async function includeHTML() {
 				basepath: '@file',
 			})
 		)
+		.pipe(formatHtml({
+			indent_size: 4
+		}))
 		.pipe(gulp.dest(paths.scripts.dest))
 }
 

@@ -4,17 +4,18 @@
   padding-left: 18px;
   padding-right: 18px; }
   .btn-signup:hover {
-    background-color: #fff;
-    color: #ee4d30; }
+    background-color: #fff !important;
+    color: #ee4d30 !important;
+    border: 1px solid #ee4d30 !important; }
 
 .btn-cta {
   background-color: #ee4d30;
   font-weight: 700;
   color: #fff; }
   .btn-cta:hover {
-    background-color: #cf3b21;
-    border-color: #ee4d30;
-    color: #fff; }
+    background-color: #cf3b21 !important;
+    border-color: #ee4d30 !important;
+    color: #fff !important; }
 
 .btn-lg-cta {
   height: 65px;
@@ -23,9 +24,9 @@
   font-weight: 700;
   color: #fff; }
   .btn-lg-cta:hover {
-    background-color: #cf3b21;
-    border-color: #ee4d30;
-    color: #fff; }
+    background-color: #cf3b21 !important;
+    border-color: #ee4d30 !important;
+    color: #fff !important; }
 
 .text-qw-primary {
   color: #ee4d30; }
@@ -37,13 +38,13 @@
   background-color: #ee4d30 !important; }
 
 .bg-qw-soft-primary-1 {
-  background-color: #FEECDD; }
+  background-color: #FEECDD !important; }
 
 .bg-qw-soft-primary-2 {
-  background-color: #FFF8F3; }
+  background-color: #FFF8F3 !important; }
 
 .bg-qw-soft-primary-3 {
-  background-color: #ff896b; }
+  background-color: #ff896b !important; }
 
 .vh-70 {
   min-height: 70vh !important; }
