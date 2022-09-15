@@ -27,7 +27,11 @@
 		@@include('../partials/homepage/solution.html')
 		<!-- ! END OF SOLUTION -->
 		<!-- ! COMMITMENT -->
-		@@include('../partials/homepage/commitment.html')
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Komitmen Qwords</h2>",
+			"subtext": "Berbagai Alasan Mengapa Pelanggan memilih Qwords",
+			"isHomePage": true
+		})
 		<!-- ! END OF COMMITMENT -->
 		<!-- ! BIKINWEBSITE ADS -->
 		@@include('../partials/homepage/bw-ads.html')
