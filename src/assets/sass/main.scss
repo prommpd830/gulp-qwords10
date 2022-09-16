@@ -874,6 +874,7 @@ body {
 			}
 			.nav-link:not(.active) {
 				color: $black-color;
+				border: 1px solid #eee;
 			}
 
 			.nav-link.active {

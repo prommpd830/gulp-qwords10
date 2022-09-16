@@ -561,7 +561,8 @@ body {
   #product-nav-pills #pills-tab .nav-item .nav-link {
     font-weight: 800; }
   #product-nav-pills #pills-tab .nav-item .nav-link:not(.active) {
-    color: #212121; }
+    color: #212121;
+    border: 1px solid #eee; }
   #product-nav-pills #pills-tab .nav-item .nav-link.active {
     background-color: #ee4d30; }
 

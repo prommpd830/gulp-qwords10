@@ -184,6 +184,30 @@
 	width: 200px !important;
 }
 
+.mh-580 {
+	min-height: 580px !important;
+	height: 580px !important;
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		border: none;
+		background-color: transparent;
+	} /* webkit browsers(safari, chrome) */
+	scrollbar-color: #404040b3 transparent; /*firefox*/
+}
+
+.mh-265 {
+	min-height: 265px !important;
+	height: 265px !important;
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		border: none;
+		background-color: transparent;
+	} /* webkit browsers(safari, chrome) */
+	scrollbar-color: #404040b3 transparent; /*firefox*/
+}
+
 .nav-brand-custom {
 	position: relative;
 	@media screen and (min-width: 992px) {
