@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		@@include('../partials/header.html')
-		<title>Qwords v10 | Homepage</title>
+		<title>Qwords v10 | LODS</title>
 	</head>
 	<body>
 		<!-- ! NAVBAR SECTION -->
@@ -17,6 +17,34 @@
 			}
 		})
 		<!-- ! END OF BANNER -->
+		<!-- ! FEATURED PRODUCT -->
+		@@include('../partials/lods/featured-card.html')
+		<!-- ! END OF FEATURED PRODUCT -->
+		<!-- ! LEASED ADS -->
+		@@include('../partials/lods/bw-ads.html')
+		<!-- ! END OF LEASED ADS -->
+		<!-- ! BENEFIT HOSTING -->
+		@@include('../partials/lods/benefit-hosting.html')
+		<!-- ! END OF BENEFIT HOSTING -->
+		<div class="container">
+			<hr>
+		</div>
+		<!-- ! QNA -->
+		@@include('../partials/lods/qna.html')
+		<!-- ! END OF QNA -->
+		<!-- ! MANAGE BOX -->
+		@@include('../partials/lods/guarantee.html')
+		<!-- ! END OF MANAGE BOX -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false
+		})
+		<!-- ! END OF COMMITMENT -->
+		<!-- ! PAYMENT -->
+		@@include('../partials/plr/payment.html')
+		<!-- ! END OF PAYMENT -->
 		<!-- ! END OF NAVBAR SECTION -->
 		@@include('../partials/footer.html')
 	</body>
