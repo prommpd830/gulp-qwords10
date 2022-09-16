@@ -28,6 +28,17 @@
     border-color: #ee4d30 !important;
     color: #fff !important; }
 
+.btn-white-qw-primary {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #ee4d30;
+  font-size: 1.25rem;
+  font-weight: 700; }
+  .btn-white-qw-primary:hover {
+    background-color: #0d6efd !important;
+    border: 1px solid #0d6efd !important;
+    color: #fff !important; }
+
 .btn-outline-qw-primary {
   background-color: transparent;
   border: 1px solid #ee4d30;
@@ -46,6 +57,9 @@
 
 .bg-qw-primary {
   background-color: #ee4d30 !important; }
+
+.bg-qw-gradient-primary {
+  background: linear-gradient(195.06deg, #C63015 3.66%, #EE4D30 99.12%) !important; }
 
 .bg-qw-soft-primary-1 {
   background-color: #FEECDD !important; }
@@ -154,6 +168,17 @@
   scrollbar-color: #404040b3 transparent;
   /*firefox*/ }
   .mh-265::-webkit-scrollbar {
+    border: none;
+    background-color: transparent; }
+
+.mh-400 {
+  min-height: 400px !important;
+  height: 400px !important;
+  overflow: auto;
+  /* webkit browsers(safari, chrome) */
+  scrollbar-color: #404040b3 transparent;
+  /*firefox*/ }
+  .mh-400::-webkit-scrollbar {
     border: none;
     background-color: transparent; }
 
