@@ -88,6 +88,14 @@
       border: none;
       background-color: transparent; }
 
+.best-seller {
+  border: 2px solid #0d6efd; }
+  .best-seller .best-seller-heading {
+    text-align: center;
+    background-color: #0d6efd;
+    color: #FFF;
+    font-weight: 700; }
+
 .nav-custom-qw .nav {
   border-bottom: 1px solid #d9d9d9; }
 

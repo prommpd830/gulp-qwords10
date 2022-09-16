@@ -108,6 +108,13 @@ body {
 	min-height: 542px;
 	padding-top: 100px;
 
+	#plr-card-list { 
+		.card {
+			min-height: 200px;
+			overflow: hidden;
+		}
+	}
+
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
 	}
@@ -123,7 +130,10 @@ body {
 	.card {
 		min-height: 523px;
 	}
+
 }
+
+
 
 #additional-product {
 	min-height: 542px;

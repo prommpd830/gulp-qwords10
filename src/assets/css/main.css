@@ -78,6 +78,9 @@ body {
 #featured-card {
   min-height: 542px;
   padding-top: 100px; }
+  #featured-card #plr-card-list .card {
+    min-height: 200px;
+    overflow: hidden; }
   @media screen and (min-width: 992px) {
     #featured-card {
       padding: 120px 7rem; } }
