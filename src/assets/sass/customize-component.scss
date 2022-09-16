@@ -40,6 +40,20 @@
 	}
 }
 
+.btn-white-qw-primary {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: $primary-color;
+	font-size: 1.25rem;
+	font-weight: 700;
+
+	&:hover {
+		background-color: #0d6efd !important;
+		border: 1px solid #0d6efd !important;
+		color: #fff !important;
+	}
+}
+
 .btn-outline-qw-primary {
 	background-color: transparent;
 	border: 1px solid $primary-color;
@@ -64,6 +78,10 @@
 
 .bg-qw-primary {
 	background-color: $primary-color !important;
+}
+.bg-qw-gradient-primary {
+	// background: rgb(39,39,39);
+	background: linear-gradient(195.06deg, #C63015 3.66%, #EE4D30 99.12%) !important;
 }
 
 .bg-qw-soft-primary-1 {
@@ -199,6 +217,18 @@
 .mh-265 {
 	min-height: 265px !important;
 	height: 265px !important;
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		border: none;
+		background-color: transparent;
+	} /* webkit browsers(safari, chrome) */
+	scrollbar-color: #404040b3 transparent; /*firefox*/
+}
+
+.mh-400 {
+	min-height: 400px !important;
+	height: 400px !important;
 	overflow: auto;
 
 	&::-webkit-scrollbar {
