@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		@@include('../partials/header.html')
+		<title>Qwords v10 | Dedicated Server</title>
+	</head>
+	<body>
+		<!-- ! NAVBAR SECTION -->
+		@@include('../partials/navbar.html')
+		<!-- ! END OF NAVBAR SECTION -->
+		<!-- ! DEDICATED BANNER -->
+		@@include('../partials/cloudvps/vps-banner.html', {
+			"h1Text": "Dedicated Bare Metal Server",
+			"bannerSubText": {
+				"p1": "Nikmati mengelola Dedicated Server sendiri dengan akses remote dari seluruh dunia tanpa batas. Terdapat pula pilihan control panel yang bisa anda sesuaikan dengan kebutuhan. Fasilitas monitoring 24x7 untuk memastikan Uptime server 99%, terdapat pula UPS keperluan backup.",
+				"p2": "Telah dilengkapi dengan layanan Easy Managed. Bantuan ekstra dalam bentuk pengelolaan sederhana, pemantauan, dan pengawasan untuk penggunaan bandwidth, Ping, instalasi/reinstalasi, dsb. Anda kini dapat fokus menjalankan website perusahaan tanpa memikirkan pengelolaan server.",
+				"p3": "Anda juga akan diberikan hak akses penuh (root access) untuk mengelola server seperti upgrade/downgrade resource/kapasitas sesuai keinginan. Namun kami menyediakan Manage the Box untuk layanan support server."
+			}
+		})
+		<!-- ! END OF DEDICATED BANNER -->
+		<!-- ! FEATURED CARD -->
+		@@include('../partials/dserver/featured-card.html')
+		<!-- ! END OF FEATURED CARD -->
+		<!-- ! DEDICATED SERVER -->
+		@@include('../partials/dserver/trial.html')
+		<!-- ! END OF DEDICATED SERVER -->
+		<!-- ! QNA -->
+		@@include('../partials/dserver/qna.html')
+		<!-- ! END OF QNA -->
+		<!-- ! GUARANTEE -->
+		@@include('../partials/dserver/guarantee.html')
+		<!-- ! END OF GUARANTEE -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false
+		})
+		<!-- ! END OF COMMITMENT -->
+		<!-- ! PAYMENT -->
+		@@include('../partials/homepage/payment.html')
+		<!-- ! END OF PAYMENT -->
+		@@include('../partials/footer.html')
+	</body>
+</html>
