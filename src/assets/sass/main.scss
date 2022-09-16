@@ -848,6 +848,32 @@ body {
 }
 /* END PACKAGE WP */
 
+// SECTION CS 
+#product-nav-pills {
+	padding: 100px 0;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	#pills-tab {
+		.nav-item {
+
+			.nav-link {
+				font-weight: 800;
+			}
+			.nav-link:not(.active) {
+				color: $black-color;
+			}
+
+			.nav-link.active {
+				background-color: $primary-color;
+			}
+		}
+	}
+}
+// END SECTION CS
+
 #contact-ft {
 	background-color: $primary-color;
 

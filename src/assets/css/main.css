@@ -550,6 +550,18 @@ body {
       border-radius: 30px; }
 
 /* END PACKAGE WP */
+#product-nav-pills {
+  padding: 100px 0; }
+  @media screen and (min-width: 992px) {
+    #product-nav-pills {
+      padding: 120px 7rem; } }
+  #product-nav-pills #pills-tab .nav-item .nav-link {
+    font-weight: 800; }
+  #product-nav-pills #pills-tab .nav-item .nav-link:not(.active) {
+    color: #212121; }
+  #product-nav-pills #pills-tab .nav-item .nav-link.active {
+    background-color: #ee4d30; }
+
 #contact-ft {
   background-color: #ee4d30; }
   #contact-ft .contact-wrapper {
