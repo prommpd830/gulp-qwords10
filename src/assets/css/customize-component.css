@@ -28,6 +28,16 @@
     border-color: #ee4d30 !important;
     color: #fff !important; }
 
+.btn-outline-qw-primary {
+  background-color: transparent;
+  border: 1px solid #ee4d30;
+  color: #ee4d30;
+  font-size: 1.25rem;
+  font-weight: 700; }
+  .btn-outline-qw-primary:hover {
+    background-color: #ee4d30 !important;
+    color: white !important; }
+
 .text-qw-primary {
   color: #ee4d30; }
 
