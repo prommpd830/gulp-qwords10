@@ -75,6 +75,24 @@ body {
   #search-domain .form-control {
     padding: 1.125rem; }
 
+#banner-search-domain {
+  padding-bottom: 10rem; }
+  #banner-search-domain #inner-search-domain {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (min-width: 992px) {
+      #banner-search-domain #inner-search-domain .search-wrapper {
+        padding: 0 7rem; } }
+    #banner-search-domain #inner-search-domain .search-wrapper p {
+      width: auto; }
+      @media screen and (min-width: 992px) {
+        #banner-search-domain #inner-search-domain .search-wrapper p {
+          width: 50%; } }
+  #banner-search-domain .form-select,
+  #banner-search-domain .form-control {
+    padding: 1.125rem; }
+
 #featured-card {
   min-height: 542px;
   padding-top: 100px; }
@@ -583,6 +601,53 @@ body {
     border: 1px solid #eee; }
   #product-nav-pills #pills-tab .nav-item .nav-link.active {
     background-color: #ee4d30; }
+
+.extensions-card {
+  padding-top: 100px; }
+  @media screen and (min-width: 992px) {
+    .extensions-card {
+      padding: 120px 7rem; } }
+  .extensions-card h2 {
+    font-size: 43px;
+    font-weight: 800; }
+  .extensions-card .card h5 {
+    font-weight: 800; }
+  .extensions-card .pagination .page-item {
+    padding: 4px; }
+    .extensions-card .pagination .page-item .page-link {
+      padding: 7px 15px; }
+  .extensions-card .pagination .page-item > .page-link {
+    color: #212121;
+    font-weight: 500;
+    border: none; }
+  .extensions-card .pagination .page-item.active > .page-link {
+    background-color: #FEECDD; }
+  .extensions-card .pagination .page-item.disabled > .page-link {
+    color: #a0a0a0; }
+  .extensions-card p {
+    font-size: 1rem; }
+
+#alternative-domain {
+  padding-top: 100px; }
+  @media screen and (min-width: 992px) {
+    #alternative-domain {
+      padding: 120px 7rem; } }
+  #alternative-domain h2 {
+    font-size: 43px;
+    font-weight: 800; }
+  #alternative-domain p {
+    font-size: 1rem; }
+
+#available-domain {
+  padding-top: 100px; }
+  @media screen and (min-width: 992px) {
+    #available-domain {
+      padding: 120px 7rem; } }
+  #available-domain h2 {
+    font-size: 43px;
+    font-weight: 800; }
+  #available-domain p {
+    font-size: 1rem; }
 
 #mtg-integration {
   padding: 80px 0 120px; }
