@@ -104,6 +104,33 @@ body {
 	}
 }
 
+#banner-search-domain {
+	padding-bottom: 10rem;
+	#inner-search-domain {
+		// width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.search-wrapper {
+			@media screen and (min-width: 992px) {
+				padding: 0 7rem;
+			}
+			p {
+				width: auto;
+				@media screen and (min-width: 992px) {
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.form-select,
+	.form-control {
+		padding: 1.125rem;
+	}
+}
+
 #featured-card {
 	min-height: 542px;
 	padding-top: 100px;
@@ -882,6 +909,90 @@ body {
 	}
 }
 // END SECTION CS
+
+// SECTION DD
+.extensions-card {
+	padding-top: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	h2 {
+		font-size: 43px;
+		font-weight: 800;
+	}
+
+	.card {
+		h5 {
+			font-weight: 800;
+		}
+	}
+
+	.pagination {
+
+		.page-item {
+			padding: 4px;
+
+			.page-link {
+				padding: 7px 15px;
+			}
+		}
+
+		.page-item>.page-link {
+			color: $black-color;	
+			font-weight: 500;
+			border: none;
+		}
+
+		.page-item.active>.page-link {
+			background-color: $soft-primary-1;
+		}
+
+		.page-item.disabled>.page-link {
+			color: #a0a0a0;
+		}
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}
+
+#alternative-domain {
+	padding-top: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	h2 {
+		font-size: 43px;
+		font-weight: 800;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}
+
+#available-domain {
+	padding-top: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	h2 {
+		font-size: 43px;
+		font-weight: 800;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}
+// END SECTION DD
 
 #mtg-integration {
 	padding: 80px 0 120px;

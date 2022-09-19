@@ -61,6 +61,9 @@
 .bg-qw-gradient-primary {
   background: linear-gradient(195.06deg, #C63015 3.66%, #EE4D30 99.12%) !important; }
 
+.bg-qw-banner-gradient-primary {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FEECDD 97.66%) !important; }
+
 .bg-qw-soft-primary-1 {
   background-color: #FEECDD !important; }
 

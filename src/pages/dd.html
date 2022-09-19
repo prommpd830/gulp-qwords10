@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		@@include('../partials/header.html')
+		<title>Qwords v10 | Homepage</title>
+	</head>
+	<body>
+		<!-- ! NAVBAR SECTION -->
+		@@include('../partials/navbar.html')
+		<!-- ! END OF NAVBAR SECTION -->
+		<!-- ! MAIN BANNER -->
+		@@include('../partials/dd/banner.html')
+		<!-- ! END OF MAIN BANNER -->
+		<!-- ! AVAILABLE -->
+		@@include('../partials/dd/available-domain.html')
+		<!-- ! END OF AVAILABLE -->
+		<!-- ! ALTERNATIVE -->
+		@@include('../partials/dd/alternative-domain.html')
+		<!-- ! END OF ALTERNATIVE -->
+		<!-- ! EXTENSIONS CARD -->
+		@@include('../partials/dd/extensions-card.html')
+		<!-- ! END OF EXTENSIONS CARD -->
+		<!-- ! TESTIMONIAL -->
+		@@include('../partials/dd/testimonial.html')
+		<!-- ! END OF TESTIMONIAL -->
+		<!-- ! BENEFIT HOSTING -->
+		@@include('../partials/dd/benefit-hosting.html')
+		<!-- ! END OF BENEFIT HOSTING -->
+		<!-- ! QNA -->
+		@@include('../partials/dd/qna.html')
+		<!-- ! END OF QNA -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false,
+			"isBg": true
+		})
+		<!-- ! END OF COMMITMENT -->
+		<!-- ! PAYMENT -->
+		@@include('../partials/dd/payment.html')
+		<!-- ! END OF PAYMENT -->
+		@@include('../partials/footer.html')
+	</body>
+</html>
