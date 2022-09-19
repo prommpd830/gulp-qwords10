@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		@@include('../partials/header.html')
+		<title>Qwords v10 | Mail To Go</title>
+	</head>
+	<body>
+		<!-- ! NAVBAR SECTION -->
+		@@include('../partials/navbar.html')
+		<!-- ! END OF NAVBAR SECTION -->
+		<!-- ! BANNER -->
+		@@include('../partials/mtg/banner.html')
+		<!-- ! END OF BANNER -->
+		<!-- ! FEATURED -->
+		@@include('../partials/mtg/webhosting-table.html')
+		<!-- ! END OF FEATURED -->
+		<!-- ! INTEGRATION -->
+		@@include('../partials/mtg/integration.html')
+		<!-- ! END OF INTEGRATION -->
+		<!-- ! INTEGRATION -->
+		@@include('../partials/mtg/benefit-hosting.html')
+		<!-- ! END OF INTEGRATION -->
+		<!-- ! QNA -->
+		@@include('../partials/mtg/qna.html')
+		<!-- ! END OF QNA -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false,
+			"isBg": true
+		})
+		<!-- ! END OF COMMITMENT -->
+		@@include('../partials/footer.html')
+	</body>
+</html>
