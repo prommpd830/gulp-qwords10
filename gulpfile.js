@@ -4,6 +4,8 @@ const server = require('browser-sync').create()
 const { watch, series } = require('gulp')
 const sass = require('gulp-sass') (require('sass'))
 const formatHtml = require('gulp-format-html')
+const argv = require('yargs').argv;
+const isProduction = (argv.production === undefined) ? false : true;
 
 sass.compiler = require('node-sass')
 const paths = {
@@ -62,6 +64,13 @@ async function buildAndReload() {
 
 exports.includeHTML = includeHTML
 exports.default = async function () {
+	
+	if (isProduction){
+		await includeHTML()
+		await copyAssets()
+		return
+	}
+
 	// Init serve files from the build folder
 	server.init({
 		server: {
