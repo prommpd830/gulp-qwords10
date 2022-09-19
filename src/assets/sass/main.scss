@@ -899,6 +899,14 @@ body {
 	}
 }
 
+#coverage-form {
+	padding: 100px 0;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+}
+
 #contact-ft {
 	background: linear-gradient(90deg, #ee4d30 0%, #f9a782 100%);
 

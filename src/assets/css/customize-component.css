@@ -43,11 +43,10 @@
   background-color: transparent;
   border: 1px solid #ee4d30;
   color: #ee4d30;
-  font-size: 1.25rem;
   font-weight: 700; }
   .btn-outline-qw-primary:hover {
     background-color: #ee4d30 !important;
-    color: white !important; }
+    color: #fff !important; }
 
 .text-qw-primary {
   color: #ee4d30; }
@@ -127,6 +126,9 @@
   background-color: transparent !important;
   color: #ee4d30;
   font-weight: 700;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom: 2px solid #ee4d30;
   border-radius: 0; }
 
