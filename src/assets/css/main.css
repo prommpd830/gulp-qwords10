@@ -593,11 +593,29 @@ body {
       width: 100%;
       height: 100%; }
 
-#coverage-form {
+#coverage-form, #price-domain-id {
   padding: 100px 0; }
   @media screen and (min-width: 992px) {
-    #coverage-form {
+    #coverage-form, #price-domain-id {
       padding: 120px 7rem; } }
+
+#price-domain-id thead {
+  background-color: #FEECDD;
+  border-radius: 1em;
+  vertical-align: middle;
+  font-weight: 800; }
+  #price-domain-id thead tr {
+    height: 100px; }
+    #price-domain-id thead tr :nth-child(1) {
+      border-top-left-radius: 2em; }
+    #price-domain-id thead tr :nth-child(3) {
+      border-top-right-radius: 2em; }
+
+#price-domain-id tbody {
+  vertical-align: middle;
+  font-weight: 700; }
+  #price-domain-id tbody tr {
+    height: 100px; }
 
 #contact-ft {
   background: linear-gradient(90deg, #ee4d30 0%, #f9a782 100%); }
