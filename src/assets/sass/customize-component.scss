@@ -226,9 +226,12 @@
 	scrollbar-color: #404040b3 transparent; /*firefox*/
 }
 
-.mh-400 {
-	min-height: 400px !important;
-	height: 400px !important;
+.mh-515 {
+	min-height: 515px !important;
+}
+
+.mh-250 {
+	min-height: 250px !important;
 	overflow: auto;
 
 	&::-webkit-scrollbar {
