@@ -8,9 +8,29 @@
 		<!-- ! NAVBAR SECTION -->
 		@@include('../partials/navbar.html')
 		<!-- ! END OF NAVBAR SECTION -->
+		<!-- ! BANNER -->
+		@@include('../partials/premiumid/banner.html')
+		<!-- ! END OF BANNER -->
 		<!-- ! HARGA DOMAIN TABLE -->
 		@@include('../partials/premiumid/price-table.html')
 		<!-- ! END OF HARGA DOMAIN TABLE -->
+		<!-- ! BENEFIT -->
+		@@include('../partials/premiumid/benefit-hosting.html')
+		<!-- ! END OF BENEFIT -->
+		<!-- ! COMMITMENT -->
+		@@include('../partials/homepage/commitment.html', {
+			"h2text": "<h2>Apa yang Membuat Qwords <span class=\"text-qw-primary\">Berbeda</span> dari yang Lain?</h2>" ,
+			"subtext": "Sebagai perusahaan penyedia Nama Domain, Cloud Hosting, dan Server terbaik di Indonesia, Qwords memberikan pengalaman terbaik bagi pelanggan, layanan bantuan responsif, jaminan keamanan, serta software dan teknologi terupdate.",
+			"isHomePage": false,
+			"isBg": false
+		})
+		<!-- ! END OF COMMITMENT -->
+		<div class="container">
+			<hr/>
+		</div>
+		<!-- ! PAYMENT -->
+		@@include('../partials/dd/payment.html')
+		<!-- ! END OF PAYMENT -->
 		@@include('../partials/footer.html')
 	</body>
 </html>
