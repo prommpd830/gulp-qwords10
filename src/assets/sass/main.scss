@@ -1010,11 +1010,40 @@ body {
 	}
 }
 
-#coverage-form {
+#coverage-form, #price-domain-id {
 	padding: 100px 0;
 
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
+	}
+}
+
+#price-domain-id {
+	thead {
+		background-color: $soft-primary-1;
+		border-radius: 1em;
+		vertical-align: middle;
+		font-weight: 800;
+		// border: 1px solid #a0a0a0;
+		tr {
+			height: 100px;
+			
+			:nth-child(1) {
+				border-top-left-radius: 2em;
+			}
+
+			:nth-child(3) {
+				border-top-right-radius: 2em;
+			}
+		}
+	}
+
+	tbody {
+		vertical-align: middle;
+		font-weight: 700;
+		tr {
+			height: 100px;
+		}
 	}
 }
 
