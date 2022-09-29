@@ -1,1 +1,0 @@
-console.log('ok ini baru banget pake bs');

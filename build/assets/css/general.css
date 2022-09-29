@@ -1,7 +1,0 @@
-.container {
-  display: flex;
-  background-color: #090909;
-  color: #be0000;
-  min-height: 100vh; }
-  .container h1 {
-    font-size: 5rem !important; }
